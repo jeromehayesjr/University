@@ -1,0 +1,20 @@
+Script started on Mon 02 Jun 2014 05:31:33 PM PDT
+]0;004310812@jb359-12:/students/csci/004310812/CSE_202/lab8[?1034h[004310812@jb359-12 lab8]$ lsvi assignment4.cppls[Kvi assignment 4ls[Kvi assignment4.cppls[K[Klsvi assignment4.cppls[Kvi assignment 4ls[Kcd a4[3Plsmkdir a4ls[Kcd CSE_202[3PCSE_202ls[Kp typescript s[Kp typescript s[Kcd CSE_202/a3ls[Kcd CSE_202/a3ls[Kp typescript s[KCSE_202cd CSE_202ls[Kmkdir a4ls[Kcd a4[3Plsvi assignment 4ls[Kvi assignment4.cppls[K[Klsvi assignment4.cppls[Kvi assignment4.cppls[K[Kc++ sortsearch.cpp'[K
+]0;004310812@jb359-12:/students/csci/004310812/CSE_202/lab8[004310812@jb359-12 lab8]$ ./a.out 
+5
+10
+15
+20
+25
+30
+35
+40
+ Enter a number to search
+15
+
+2
+]0;004310812@jb359-12:/students/csci/004310812/CSE_202/lab8[004310812@jb359-12 lab8]$ end
+bash: end: command not found
+]0;004310812@jb359-12:/students/csci/004310812/CSE_202/lab8[004310812@jb359-12 lab8]$ exit
+
+Script done on Mon 02 Jun 2014 05:32:18 PM PDT

@@ -1,0 +1,61 @@
+/*
+Jerome Hayes Jr
+count.cpp
+5-12-14
+description
+*/
+
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <fstream>
+
+using namespace std;
+
+main()
+{
+    cout << "what is the name of the file ?";
+    string input;
+    cin >> input;
+    while(!cin.eof())
+    {
+    string word, line;
+    int chars = 0, words = 0, lines = 0;
+    istringstream line_string;
+
+    ifstream in;
+    //cout << "what is the name of the file ?";
+    //string input;
+  //  cin >> input;
+
+    in.open(input.c_str());  
+    
+    if (in.fail())
+    { 
+        cout << " Problem opening file";
+        return 1;
+    }
+    getline(in, line);
+    while (!in.eof())
+    {
+        lines++;
+        
+        chars += line.length() + 1; // +1 for the new-line character
+        
+        line_string.str(line); // init stream with line
+        
+        // count words in the line until end-of-stream
+        while (line_string >> word)
+        {
+            words++;
+        }
+        line_string.clear(); // clear end-of-stream raised in previous while-loop
+        
+        getline(in, line);
+    }   
+    cout << lines << ' ' << words << ' ' << chars << endl;
+    in.close();
+    cout << "What is the name of the file?";
+    cin >> input;
+    }
+}

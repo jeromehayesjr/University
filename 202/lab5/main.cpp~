@@ -1,0 +1,39 @@
+/*
+Jerome Hayes Jr
+5/5/14
+main.cpp
+Code that run using all the code created in this lab.
+*/
+#include <iostream>
+#include <string>
+#include <vector>
+
+#include "Person.h"
+#include "Student.h"
+#include "Instructor.h"
+using namespace std;
+
+main()
+{
+    vector<Person *> dudes(4); // vector of pointers to Person (dudes or dudets)
+
+    // normal assignment of the same types: pointer to Person
+    dudes[0] = new Person("Jack", "3/11/70", "M");
+    
+    // pointer of a derived class assigned to a pointer of base class
+    dudes[1] = new Student("Katie", "4/12/80", "F", "CS");
+
+    // two more examples
+    dudes[2] = new Instructor("Tom", "5/13/90", "M", 55000);
+    dudes[3] = new Instructor("Pam", "6/14/80", "F", 60000);
+
+    for (int i = 0; i < dudes.size(); i++)
+        dudes[i]->print(); // dynamically (at run time) the correct print() is called
+
+    Person p = *(dudes[2]); // sliced off Instructor
+    p.print();
+
+    // clean up
+    for (int i = 0; i < dudes.size(); i++)
+        delete dudes[i];
+}

@@ -1,0 +1,8 @@
+Script started on Mon Feb  8 15:02:47 2016
+[?1034hbash-3.2$ c++ Vector.h Vector_test.cpp 
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+SUCCESS 
+bash-3.2$ exit
+
+Script done on Mon Feb  8 15:03:16 2016

@@ -1,0 +1,11 @@
+Script started on Mon Feb 22 13:51:44 2016
+[?1034hbash-3.2$ ls
+List.h		List.h.gch	List_test.cpp	a.out		hello.cpp	typescript
+bash-3.2$ c++ List.h List_test.cpp
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+SUCCESS
+Segmentation fault: 11
+bash-3.2$ exit
+
+Script done on Mon Feb 22 13:52:41 2016

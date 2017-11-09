@@ -1,0 +1,1 @@
+/*Jerome Hayes Jrtest.cpp2/21/2016This program was given by the professor to test my stack header file.  */#include <iostream>#include <vector>#include "Stack.h"using namespace std;int main(){    Stack<double, vector> v; // uses Vector as the container    v.push(1.5);    v.push(2.3);    v.pop();    cout << v.top() << endl;}

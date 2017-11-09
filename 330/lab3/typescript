@@ -1,0 +1,15 @@
+Script started on Tue Feb  2 14:01:24 2016
+[?1034hbash-3.2$ ls
+String.cpp	String.h.gch	a.out		typescript
+String.h	String_test.cpp	test.cpp
+bash-3.2$ c++ String [K.h Strubg[K[K[King_test.cpp String.cpp
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+SUCCESS
+bash-3.2$ c++ String.h String.cpp S[Ktest.cpp
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+abcd <= abe
+bash-3.2$ exit
+
+Script done on Tue Feb  2 14:02:41 2016

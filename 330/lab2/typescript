@@ -1,0 +1,193 @@
+Script started on Sun Jan 24 10:07:18 2016
+[?1034hbash-3.2$ ls
+a.out			insertionsort.cpp	selectionsort.cpp
+bubblesort.cpp		output			typescript
+bash-3.2$ b[Kv[Kc++ buB[Kbblesort.cpp
+bash-3.2$ time .a[K/[K\[K/a.out > output
+1000
+
+real	0m10.141s
+user	0m0.014s
+sys	0m0.006s
+bash-3.2$ time ./a.out > output
+2000
+
+real	0m5.686s
+user	0m0.033s
+sys	0m0.005s
+bash-3.2$ time ./a.out > output
+3000
+
+real	0m3.802s
+user	0m0.067s
+sys	0m0.006s
+bash-3.2$ time ./a.out > output
+4000
+
+real	0m3.902s
+user	0m0.108s
+sys	0m0.008s
+bash-3.2$ time ./a.out > output
+5000
+
+real	0m3.160s
+user	0m0.153s
+sys	0m0.008s
+bash-3.2$ time ./a.out > output
+6000
+
+real	0m3.851s
+user	0m0.228s
+sys	0m0.010s
+bash-3.2$ time ./a.out > output
+7000
+
+real	0m4.083s
+user	0m0.296s
+sys	0m0.011s
+bash-3.2$ time ./a.out > output[C[C[C[C[C[C[C[C[C[C[Ktime ./a.out > output
+8000
+
+real	0m3.659s
+user	0m0.396s
+sys	0m0.012s
+bash-3.2$ time ./a.out > output
+9000
+
+real	0m4.456s
+user	0m0.501s
+sys	0m0.014s
+bash-3.2$ time ./a.out > output
+10000
+
+real	0m4.815s
+user	0m0.633s
+sys	0m0.015s
+bash-3.2$ l[Kls
+a.out			insertionsort.cpp	selectionsort.cpp
+bubblesort.cpp		output			typescript
+bash-3.2$ cd[K[Kc++ selectionsort.cpp 
+bash-3.2$ c++ selectionsort.cpp [C[C[C[C[C[C[C[C[C[Cls[Ktime ./a.out > output
+1000
+
+real	0m5.315s
+user	0m0.012s
+sys	0m0.006s
+bash-3.2$ time ./a.out > output
+2000
+
+real	0m2.752s
+user	0m0.030s
+sys	0m0.006s
+bash-3.2$ time ./a.out > output
+3000
+
+real	0m4.268s
+user	0m0.055s
+sys	0m0.006s
+bash-3.2$ time ./a.out > output
+4000
+
+real	0m4.950s
+user	0m0.094s
+sys	0m0.008s
+bash-3.2$ time ./a.out > output
+5000
+
+real	0m2.996s
+user	0m0.147s
+sys	0m0.009s
+bash-3.2$ time ./a.out > output
+6000
+
+real	0m3.454s
+user	0m0.212s
+sys	0m0.011s
+bash-3.2$ time ./a.out > output
+7000
+
+real	0m3.236s
+user	0m0.283s
+sys	0m0.011s
+bash-3.2$ time ./a.out > output
+8000
+
+real	0m13.108s
+user	0m0.378s
+sys	0m0.013s
+bash-3.2$ time ./a.out > output
+9000
+
+real	0m3.579s
+user	0m0.483s
+sys	0m0.013s
+bash-3.2$ time ./a.out > output
+10000
+
+real	0m4.050s
+user	0m0.597s
+sys	0m0.014s
+bash-3.2$ c++ insertionsort.cpp 
+bash-3.2$ c++ insertionsort.cpp [C[C[C[C[C[C[C[C[C[C[1Ptime ./a.out > output
+1000
+
+real	0m2.877s
+user	0m0.008s
+sys	0m0.006s
+bash-3.2$ time ./a.out > output
+2000
+
+real	0m2.241s
+user	0m0.018s
+sys	0m0.005s
+bash-3.2$ time ./a.out > output
+3000
+
+real	0m2.576s
+user	0m0.029s
+sys	0m0.007s
+bash-3.2$ time ./a.out > output
+4000
+
+real	0m2.389s
+user	0m0.053s
+sys	0m0.008s
+bash-3.2$ time ./a.out > output
+5000
+
+real	0m3.627s
+user	0m0.068s
+sys	0m0.009s
+bash-3.2$ time ./a.out > output
+6000
+
+real	0m3.198s
+user	0m0.091s
+sys	0m0.010s
+bash-3.2$ time ./a.out > output
+7000
+
+real	0m2.924s
+user	0m0.117s
+sys	0m0.011s
+bash-3.2$ time ./a.out > output
+8000
+
+real	0m3.620s
+user	0m0.143s
+sys	0m0.012s
+bash-3.2$ time ./a.out > output
+9000
+
+real	0m3.476s
+user	0m0.180s
+sys	0m0.014s
+bash-3.2$ time ./a.out > output
+10000
+
+real	0m5.482s
+user	0m0.219s
+sys	0m0.014s
+bash-3.2$ exit
+
+Script done on Sun Jan 24 10:26:09 2016

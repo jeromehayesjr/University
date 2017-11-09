@@ -1,0 +1,19 @@
+Script started on Wed Jan 27 16:44:29 2016
+[?1034hbash-3.2$ ls
+a.out		hw.cpp		typescript
+bash-3.2$ hw.[K[K[Kc++ hw.cpp
+bash-3.2$ ./a.out 
+10
+2
+5
+20
+8
+1
+15
+6
+^DThere was a total of 8 numbers in array
+The average is 8.375
+The variance is 36.7344
+bash-3.2$ exit
+
+Script done on Wed Jan 27 16:45:38 2016

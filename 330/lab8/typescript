@@ -1,0 +1,17 @@
+Script started on Sun Mar  6 19:43:39 2016
+[?1034hbash-3.2$ c++ test.cpp Set.h
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+6
+8
+9
+10
+11
+All tests passed.
+bash-3.2$ c++ test.cpp Set_test.cpp [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KS[KSet_test.cpp  [KSet.h
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ /[K./a.out 
+All tests passed.
+bash-3.2$ ./a.out [Kexit
+
+Script done on Sun Mar  6 19:44:36 2016

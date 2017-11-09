@@ -1,0 +1,16 @@
+Script started on Tue Feb 23 18:08:46 2016
+[?1034hbash-3.2$ l[Kc++ Ques[Kue.h Ques[Kue_test.cpp 
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+SUCCES
+bash-3.2$ c++ Stack.h test.cpp 
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+1.5
+bash-3.2$ c++ Stack.h Stack_test.cpp 
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+SUCCESS
+bash-3.2$ exit
+
+Script done on Tue Feb 23 18:10:15 2016

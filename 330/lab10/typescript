@@ -1,0 +1,19 @@
+Script started on Wed Mar 16 14:17:55 2016
+[?1034hbash-3.2$ c++ test.cpp
+bash-3.2$ ./a.out 
+5 7 3
+bash-3.2$ ls
+Map.h		Pair.h		Test_map.cpp	test.cpp
+Map.h.gch	Pair.h.gch	a.out		typescript
+bash-3.2$ c++ Test_map.cpp 
+bash-3.2$ ./a.out 
+abby -100
+billy 6
+binky 100
+bobby -4
+charles 0
+katie -2
+Success!
+bash-3.2$ exit
+
+Script done on Wed Mar 16 14:18:18 2016

@@ -1,0 +1,22 @@
+Script started on Thu Mar 10 14:54:36 2016
+[?1034hbash-3.2$ c++ Priority_queue.h Priority_queue_test.cpp 
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+All tests passed.
+bash-3.2$ c++ Priority_queue.h t
+test.cpp    typescript  
+bash-3.2$ c++ Priority_queue.h test.cpp
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ 5
+bash: 5: command not found
+bash-3.2$ 3[K./a.out 
+7
+5
+3
+8
+9
+1
+^D9 8 7 5 3 1 
+bash-3.2$ exit
+
+Script done on Thu Mar 10 14:55:28 2016

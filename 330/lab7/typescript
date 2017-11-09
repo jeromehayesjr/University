@@ -1,0 +1,10 @@
+Script started on Wed Mar  2 11:04:15 2016
+[?1034hbash-3.2$ c++ Deque.h Deque_test.cpp 
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+bash-3.2$ ./a.out 
+3210
+0 1 2 3 
+SUCCESS
+bash-3.2$ exit
+
+Script done on Wed Mar  2 11:04:30 2016

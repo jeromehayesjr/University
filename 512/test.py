@@ -1,0 +1,1 @@
+def even_nums(lst):    # return [x for x in lst if x % 2 == 0]    evens = []    for x in lst:        if type(x) == int and x % 2 == 0:            evens.append(x)    return evens

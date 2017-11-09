@@ -1,0 +1,29 @@
+Script started on Tue Mar 21 10:50:13 2017
+[?1034hbash-3.2$ exit[1Pndsolution() endl[C[C[C[C[C[C[C[C[C[C[1Ppython lab8.py
+
+
+
+Balance covers [3, 4, 7] out of [3, 4, 6, 7] with LOAN_OK
+
+
+Balance and Rating covers [3, 4, 7] out of [3, 4, 6, 7] with LOAN_OK
+
+
+*This is a rule [['Balance', 'Rating']] *
+
+
+
+Rating covers [6] out of [6] with LOAN_OK
+
+
+Rating and Appraisal covers [6] out of [6] with LOAN_OK
+
+
+Rating , Appraisal ,and Income covers [6] out of [6] with LOAN_OK
+
+
+*This is a rule [['Rating', 'Appraisal', 'Income']] *
+bash-3.2$ exit
+exit
+
+Script done on Tue Mar 21 10:50:23 2017

@@ -1,0 +1,439 @@
+Script started on Tue Feb 21 10:14:33 2017
+[?1034hbash-3.2$ pythio[K[K[K[K[K[Kpython mid_huristics[K_repair.py
+python: can't open file 'mid_huristic_repair.py': [Errno 2] No such file or directory
+bash-3.2$ ls
+Untitled.py		mid_heuristic_repair.py	midtermtypescript.txt
+bash-3.2$ lspython mid_huristic_repair.pyeuristic_repair.py
+How many queens: 6
+Heuristic Repair  of:
+
+_ _ _ _ _ _ 
+_ _ _ _ _ _ 
+Q _ Q Q _ _ 
+_ _ _ _ _ _ 
+_ Q _ _ _ _ 
+_ _ _ _ Q Q 
+
+
+
+[1] col 0: min conflicts in row 1
+move queen to row 0
+
+
+[2] col 1: min conflicts in row 3
+move queen to row 1
+
+
+[3] col 2: min conflicts in row 0
+move queen to row 2
+
+
+[4] col 3: min conflicts in row 0
+move queen to row 3
+
+
+[5] col 4: min conflicts in row 2
+move queen to row 4
+
+
+[6] col 5: min conflicts in row 4
+move queen to row 5
+
+
+[7] col 0: min conflicts in row 5
+move queen to row 0
+
+
+[8] col 1: min conflicts in row 1
+move queen to row 1
+
+
+[9] col 2: min conflicts in row 3
+move queen to row 2
+
+
+[10] col 3: min conflicts in row 0
+move queen to row 3
+
+
+[11] col 4: min conflicts in row 0
+move queen to row 4
+
+
+[12] col 5: min conflicts in row 2
+move queen to row 5
+
+
+[13] col 0: min conflicts in row 4
+move queen to row 0
+
+
+[14] col 1: min conflicts in row 1
+move queen to row 1
+
+
+[15] col 2: min conflicts in row 3
+move queen to row 2
+
+
+[16] col 3: min conflicts in row 5
+move queen to row 3
+
+
+[17] col 4: min conflicts in row 2
+move queen to row 4
+
+
+[18] col 5: min conflicts in row 0
+move queen to row 5
+
+
+
+
+SOLUTION!!
+_ _ _ _ _ Q 
+_ Q _ _ _ _ 
+_ _ _ _ Q _ 
+_ _ Q _ _ _ 
+Q _ _ _ _ _ 
+_ _ _ Q _ _ 
+bash-3.2$ python mid_heuristic_repair.py
+How many queens: 8
+Heuristic Repair  of:
+
+_ Q _ _ _ Q _ _ 
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ Q _ 
+_ _ _ _ _ _ _ _ 
+Q _ Q Q _ _ _ Q 
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ 
+_ _ _ _ Q _ _ _ 
+
+
+
+[1] col 0: min conflicts in row 3
+move queen to row 0
+
+
+[2] col 1: min conflicts in row 1
+move queen to row 1
+
+
+[3] col 2: min conflicts in row 6
+move queen to row 2
+
+
+[4] col 3: min conflicts in row 1
+move queen to row 3
+
+
+[5] col 4: min conflicts in row 5
+move queen to row 4
+
+
+[6] col 5: min conflicts in row 7
+move queen to row 5
+
+
+[7] col 6: min conflicts in row 0
+move queen to row 6
+
+
+[8] col 7: min conflicts in row 0
+move queen to row 7
+
+
+[9] col 0: min conflicts in row 3
+move queen to row 0
+
+
+[10] col 1: min conflicts in row 4
+move queen to row 1
+
+
+[11] col 2: min conflicts in row 2
+move queen to row 2
+
+
+[12] col 3: min conflicts in row 7
+move queen to row 3
+
+
+[13] col 4: min conflicts in row 1
+move queen to row 4
+
+
+[14] col 5: min conflicts in row 6
+move queen to row 5
+
+
+[15] col 6: min conflicts in row 2
+move queen to row 6
+
+
+[16] col 7: min conflicts in row 5
+move queen to row 7
+
+
+[17] col 0: min conflicts in row 0
+move queen to row 0
+
+
+[18] col 1: min conflicts in row 0
+move queen to row 1
+
+
+[19] col 2: min conflicts in row 4
+move queen to row 2
+
+
+[20] col 3: min conflicts in row 6
+move queen to row 3
+
+
+[21] col 4: min conflicts in row 1
+move queen to row 4
+
+
+[22] col 5: min conflicts in row 2
+move queen to row 5
+
+
+[23] col 6: min conflicts in row 7
+move queen to row 6
+
+
+[24] col 7: min conflicts in row 3
+move queen to row 7
+
+
+[25] col 0: min conflicts in row 4
+move queen to row 0
+
+
+[26] col 1: min conflicts in row 0
+move queen to row 1
+
+
+[27] col 2: min conflicts in row 0
+move queen to row 2
+
+
+[28] col 3: min conflicts in row 5
+move queen to row 3
+
+
+[29] col 4: min conflicts in row 7
+move queen to row 4
+
+
+[30] col 5: min conflicts in row 1
+move queen to row 5
+
+
+[31] col 6: min conflicts in row 6
+move queen to row 6
+
+
+[32] col 7: min conflicts in row 2
+move queen to row 7
+
+
+[33] col 0: min conflicts in row 3
+move queen to row 0
+
+
+[34] col 1: min conflicts in row 6
+move queen to row 1
+
+
+[35] col 2: min conflicts in row 0
+move queen to row 2
+
+
+[36] col 3: min conflicts in row 2
+move queen to row 3
+
+
+[37] col 4: min conflicts in row 4
+move queen to row 4
+
+
+[38] col 5: min conflicts in row 1
+move queen to row 5
+
+
+[39] col 6: min conflicts in row 7
+move queen to row 6
+
+
+[40] col 7: min conflicts in row 4
+move queen to row 7
+
+
+
+
+SOLUTION!!
+_ _ Q _ _ _ _ _ 
+_ _ _ _ _ Q _ _ 
+_ _ _ Q _ _ _ _ 
+Q _ _ _ _ _ _ _ 
+_ _ _ _ Q _ _ Q 
+_ _ _ _ _ _ _ _ 
+_ Q _ _ _ _ _ _ 
+_ _ _ _ _ _ Q _ 
+bash-3.2$ python mid_heuristic_repair.py
+How many queens: 10
+Heuristic Repair  of:
+
+_ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ Q _ _ _ _ 
+_ _ Q _ _ _ _ Q Q _ 
+_ Q _ _ _ _ _ _ _ Q 
+Q _ _ Q _ _ Q _ _ _ 
+_ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ Q _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ 
+
+
+
+[1] col 0: min conflicts in row 5
+move queen to row 0
+
+
+[2] col 1: min conflicts in row 0
+move queen to row 1
+
+
+[3] col 2: min conflicts in row 9
+move queen to row 2
+
+
+[4] col 3: min conflicts in row 0
+move queen to row 3
+
+
+[5] col 4: min conflicts in row 4
+move queen to row 4
+
+
+[6] col 5: min conflicts in row 8
+move queen to row 5
+
+
+[7] col 6: min conflicts in row 1
+move queen to row 6
+
+
+[8] col 7: min conflicts in row 7
+move queen to row 7
+
+
+[9] col 8: min conflicts in row 1
+move queen to row 8
+
+
+[10] col 9: min conflicts in row 3
+move queen to row 9
+
+
+[11] col 0: min conflicts in row 2
+move queen to row 0
+
+
+[12] col 1: min conflicts in row 5
+move queen to row 1
+
+
+[13] col 2: min conflicts in row 3
+move queen to row 2
+
+
+[14] col 3: min conflicts in row 0
+move queen to row 3
+
+
+[15] col 4: min conflicts in row 0
+move queen to row 4
+
+
+[16] col 5: min conflicts in row 4
+move queen to row 5
+
+
+[17] col 6: min conflicts in row 9
+move queen to row 6
+
+
+[18] col 7: min conflicts in row 6
+move queen to row 7
+
+
+[19] col 8: min conflicts in row 8
+move queen to row 8
+
+
+[20] col 9: min conflicts in row 1
+move queen to row 9
+
+
+[21] col 0: min conflicts in row 7
+move queen to row 0
+
+
+[22] col 1: min conflicts in row 5
+move queen to row 1
+
+
+[23] col 2: min conflicts in row 3
+move queen to row 2
+
+
+[24] col 3: min conflicts in row 5
+move queen to row 3
+
+
+[25] col 4: min conflicts in row 0
+move queen to row 4
+
+
+[26] col 5: min conflicts in row 2
+move queen to row 5
+
+
+[27] col 6: min conflicts in row 4
+move queen to row 6
+
+
+[28] col 7: min conflicts in row 2
+move queen to row 7
+
+
+[29] col 8: min conflicts in row 6
+move queen to row 8
+
+
+[30] col 9: min conflicts in row 8
+move queen to row 9
+
+
+
+
+SOLUTION!!
+_ _ _ _ Q _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ Q _ Q _ _ 
+_ _ Q _ _ _ _ _ _ _ 
+_ _ _ _ _ _ Q _ _ _ 
+_ Q _ Q _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ Q _ 
+Q _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ Q 
+_ _ _ _ _ _ _ _ _ _ 
+bash-3.2$ exit
+exit
+
+Script done on Tue Feb 21 10:15:56 2017

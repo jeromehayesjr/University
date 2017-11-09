@@ -1,0 +1,154 @@
+Jerome Hayes Jr
+004310812
+CSE201/MW 12pm
+March 2, 2014
+Assignment 3
+
+                                    Assignment 3
+
+
+1)
+   bool areIdentical(const vector<int> & a, const vector<int> & b)
+{
+   if (a.size() != b.size()) 
+   {
+      return false;
+   }
+
+   for (int i = 0; i < a.size(); ++i)
+   {
+      if (a[i] != b[i])
+      {
+         return false;
+      }
+   }
+
+   return true;
+}
+
+
+
+2)
+bool isUnlucky(vector<int> & v)
+u{
+    for (int i = 0; i < v.size(); ++i) {
+        if (v[i] == 13) return true;
+    }
+    return false;
+}
+
+
+
+3)
+vector<int> v1;
+v1.push_back(1);
+v1.push_back(13);
+v1.push_back(92);
+assert(isUnlucky(v1) == true);
+
+vector<int> v2;
+v2.push_back(92);
+v2.push_back(1);
+v2.push_back(15);
+assert(isUnlucky(v2) == false);
+
+
+
+4)
+bool isStrictlyIncreasing(const vector<int> & v)
+{
+    for (int i = 0; i < v.size() - 1; ++i) {
+        if (!(v[i] < v[i + 1])) return false;
+    }
+    return true;
+}
+
+main()
+{
+   int a[] = {-2, 4, 5, 6, 8};
+   assert (isStrictlyIncreasing(a, 5) == true);
+
+   int b[] = {3, 4, 6, 6, 9};
+   assert (isStrictlyIncreasing(b, 5) == false);
+
+   cout << "All tests past.\n";
+}
+
+
+5)
+vector<int> flatten(int a[100][200])
+{
+    vector<int> v;
+    for (int i = 0; i < 100; ++i) {
+       for (int j = 0; j < 200; ++j) {
+           v.push_back(a[i][j]);
+       }
+    }
+    return v;
+}
+
+
+
+6)
+double findMax(double a[ROWS][COLS])
+{
+     int biggest = a[0][0];
+     for (int i = 0; i < ROWS; ++i) {
+       for (int j = 0; j < COLS; ++j) {
+           if (a[i][j] > big) big = a[i][j];
+       }
+    }
+    return big;
+}
+
+
+7)
+int search(const vector<int> & v, int k)
+{
+    for (int i = 0; i < v.size(); ++i) {
+        if (v[i] == k) return i;
+    }
+    return -1;
+}
+
+8)
+int binarySearch(const vector<int> & v, int k)
+{
+    int s = 0;
+    int e = v.size();
+    while (s < e) {
+        int m = (s + e) / 2;
+        if (v[m] == k) return m;
+        else if (v[m] < k) s = m + 1;
+        else e = m;
+    }
+    return -1;
+}
+
+
+
+9)
+vector<int> flatten(int a[100][200])
+{
+    vector<int> v;
+    for (int i = 0; i < 100; ++i) {
+       for (int j = 0; j < 200; ++j) {
+           v.push_back(a[i][j]);
+       }
+    }
+    return v;
+}
+
+
+
+10)
+double findMax(double a[ROWS][COLS])
+{
+     int biggest = a[0][0];
+     for (int i = 0; i < ROWS; ++i) {
+       for (int j = 0; j < COLS; ++j) {
+           if (a[i][j] > big) big = a[i][j];
+       }
+    }
+    return big;
+}

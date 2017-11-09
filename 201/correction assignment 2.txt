@@ -1,0 +1,97 @@
+correction of assignment 2 CSE 201
+
+
+1.)
+EggCarton::EggCarton(int brownEggs, int whiteEggs)
+{
+   this -> brownEggs = brownEggs;
+   this -> whiteEggs = whiteEggs;
+}
+
+
+2.)
+int EggCarton::getTotalEggs()
+{
+   return brownEggs + whiteEggs
+}
+
+
+3.)
+bool EggCarton::addBrownEggs(int n)
+{
+   if (brownEggs + whiteEggs + n > 12)
+   {
+      return false;
+   }
+   else
+   {
+      brownEggs += n;
+      return true;
+   }
+}
+
+
+4.)
+bool EggCarton::addWhiteEggs(int n)
+{
+   if (brownEggs + whiteEggs + n > 12)
+   {
+      return false;
+   }
+   else
+   {
+      whiteEggs += n;  // whiteEggs = whiteEggs + n
+      return true;
+   }
+}
+
+
+6.)
+Faction::Fraction(int numerator, int denominator)
+{
+this -> numerator = numerator;
+this -> denominator = denominator;
+}
+
+
+7.)
+bool Faction:: isIproper()
+{
+   return numerator > denominator;
+}
+
+
+8.)
+int Faction:: integerLowerBound() const
+{
+   return numberator / denominator;
+}
+
+
+9.)
+int Faction::integerUpperBound() const
+{
+   if (numerator % denominator == 0)
+   {
+      return numerator / denominator;
+   }
+   else
+   {
+      return numerator / denominator + 1;
+   }
+}
+
+
+10.)
+Fraction eightOverFour(8,4);
+assert(eightOverFour.integerLowerBound() == 2;
+assert(eightOverFour.integerUpperBound() == 2;
+
+
+11.)
+void Fraction::simplify()
+{
+int k = 2
+while (k < numerator && k < denominator) {
+   if (numerator % k == 0 && denominator // look online for rest
+}

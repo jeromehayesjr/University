@@ -1,0 +1,107 @@
+Jerome Hayes Jr.
+ID: 004310812
+CSE 201/MW 12pm
+Feb 15, 2014
+
+Assignment 2
+
+
+1.
+EggCarton(brownEggs:int,whiteEnggs:int)
+{
+   this -> brownEggs = brownEggs;
+   this -> whiteEggs = whiteEggs;
+}
+
+
+2.
+getTotalEggs() : int
+{
+   return brownEggs + whiteEggs
+}
+
+
+3.
+addBrownEggs(n : int) : bool
+{
+   if (getTotalEggs + n > 12)
+   {
+      return false
+   }
+   else
+   {
+      this -> n += brownEggs;
+   }
+}
+
+
+4.
+addWhiteEggs(n : int) : bool
+{
+   if (getTotalEggs + n > 12)
+   {
+      return false
+   }
+   else
+   {
+      this -> n += whiteEggs;
+   }
+}
+
+
+5.
+EggCarton carton(5, 5);
+assert(carton.getTotalEggs() == 10);
+assert(carton.addBrownEggs(2) == True);
+assert(carton.getTotalEggs() == 12);
+assert(carton.addBrownEggs(3) == False);
+assert(carton.getTotalEggs() == 12);
+
+
+6.
+Fraction(numerator : int, denominator : int)
+{
+this -> numerator = numerator;
+this -> denominator = denominator;
+}
+
+
+7.
+isImproper() : bool
+{
+if (numerator > denominator)
+   {
+      return true;
+   }
+   else
+   {
+      return false;
+   }
+}
+
+
+8.
+int intergerLowerBound() : int
+{
+ return numerator / denominator;
+}
+
+
+9.
+int intergerUpperBound() : int
+{
+return numerator % denominator;
+}
+
+
+10.
+Fraction test1(8, 4);
+assert(test1.integerLowerBound() == 3;
+assert(test1.integerUpperBound() == 4;
+
+
+11.
+simplfy() : void
+{
+if (numerator
+}
